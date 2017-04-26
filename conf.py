@@ -134,6 +134,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/projects/", "Projects"),
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
@@ -181,17 +182,27 @@ THEME_COLOR = '#5670d4'
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "story.tmpl"),
 #     )
 
-POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
-)
+# https://getnikola.com/creating-a-site-not-a-blog-with-nikola.html
+#POSTS = (
+#    ("posts/*.rst", "posts", "post.tmpl"),
+#    ("posts/*.txt", "posts", "post.tmpl"),
+#    ("posts/*.html", "posts", "post.tmpl"),
+#)
+POSTS = ()
+
+#PAGES = (
+#    ("pages/*.rst", "pages", "story.tmpl"),
+#    ("pages/*.txt", "pages", "story.tmpl"),
+#    ("pages/*.html", "pages", "story.tmpl"),
+#)
+
 PAGES = (
-    ("pages/*.rst", "pages", "story.tmpl"),
-    ("pages/*.txt", "pages", "story.tmpl"),
-    ("pages/*.html", "pages", "story.tmpl"),
+      ("pages/*.rst", "", "story.tmpl"),
+      ("pages/*.txt", "", "story.tmpl"),
+      ("pages/*.html", "", "story.tmpl"),
 )
 
+INDEX_PATH = "blog"
 
 # Below this point, everything is optional
 

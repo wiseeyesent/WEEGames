@@ -1,0 +1,35 @@
+.. title: Escape From Area 52
+.. slug: ea52
+.. date: 2017-04-25 17:19:49 UTC-05:00
+.. tags: Games,School,Projects 
+.. category: games 
+.. link: 
+.. description: DeVry Senior Graduation Project 
+.. type: text
+
+NOTE:
+*****
+This game is likely broken due to version issues with Windows C++ libraries. It was a pretty rudimentary alpha release with broken graphics anyways. I’ll try to fix it later if I get some time.
+
+DOWNLOADS:
+**********
+`Executable </files/EA52.zip>`_ | `Source </files/EA52-Source.zip>`_
+*********************************************************************
+
+STORY:
+******
+You play Agent John Smith from An Agency Without An Acronym (AAWAA) sent on an ultra-secret mission to the hidden space station orbiting above the dark side of Pluto, Area 52. Upon reaching the station, it is found to be overrun by rampant extra-terrestrials suffering from a munchy bender with a taste for secret government scientists!
+
+GAME PLAY:
+**********
+Arrow keys move the player. Collect keys to open doors. Contact with an enemy or projectile removes 25 health & resets you back to the level start. Touching an ally frees them and heals 50 health. Free all allies on a level to receive the Master Key required for opening the level exit. Escape pauses and menus have instructions for relevant controls.
+
+CHEATS:
+*******
+From the Pause Menu...
+
+* C – Toggle Cheat Mode, No Clipping & God Mode. Keys, Allies & Doors still work. Leaving level boundary results in progressing to next level.
+* End – Move to next level
+* K – Extra Keys
+* M – Master Key
+
